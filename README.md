@@ -104,6 +104,9 @@ console.log(result);
 Return the area of a circle given the radius  
 [background information](http://www.mathgoodies.com/lessons/vol2/circle_area.html)
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function areaOfACircle(radius) {
 	// TODO: Place your code here
@@ -113,7 +116,7 @@ var result = areaOfACircle(2);
 console.log(result);
 // displays approximately 12.57
 ```
-
+</details>
 
 ### 5.  Pythagorean Theorem: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 Return c given a and b  
