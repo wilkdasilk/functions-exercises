@@ -63,7 +63,9 @@ console.log(result);
 </details>
 ### 2.  Repeat a phrase
 Display an argument phrase to the console n times
-
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function repeatPhrase(phrase, n) {
 	// TODO: Place your code here
@@ -77,13 +79,16 @@ repeatPhrase("Hello", 5);
 // Hello
 // Hello
 ```
+</details>
 
 ### 3.  Build your own Power function
 Return number <sup>power</sup> *without* using built-in `Math` functions
 
 **Example**:   
 **4<sup>5</sup> = 4 \* 4 \* 4 \* 4 \* 4 = 1024**
-
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function toTheNthPower(number, power) {
 	// TODO: Place your code here		
@@ -93,6 +98,7 @@ var result = toTheNthPower(4, 5);
 console.log(result);
 // displays 1024
 ```
+</details>
 
 ### 4. Area of a circle:  &pi; r<sup>2</sup>
 Return the area of a circle given the radius  
@@ -113,6 +119,9 @@ console.log(result);
 Return c given a and b  
 [background information](https://en.wikipedia.org/wiki/Pythagorean_theorem)
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function pythagoreanTheorem(a, b) {
 	// TODO: Place your code here
@@ -122,12 +131,16 @@ var result = pythagoreanTheorem(3, 4);
 console.log(result);
 // should display 5;
 ```
+</details>
 
 ###  6. Is X Evenly Divisible by Y ?
 Return a boolean value whether or not X can be divided by Y without any remainders.  
 
 *Hint: Explore the world of Modulus operators!*
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function isXEvenlyDivisibleByY(x, y) {
 	// TODO: Place your code here
@@ -137,13 +150,15 @@ var result = isXEvenlyDivisibleByY(99, 3);
 console.log(result);
 // displays true
 ```
-
-
+</details>
 
 ### 7.  Vowel Count:
 Return the number of occurrences of vowels in a word.
 Vowels are `a`, `e`, `i`, `o`, `u`, and `y`
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function countVowels(word) {
 	// TODO: Place your code here
@@ -153,18 +168,20 @@ var result = countVowels("stealing");
 console.log(result);
 // displays 3
 ```
+</details>
 *Challenge: Can you alter the code to count both upper case AND lower case?*
 
 ### 8. Does the array contain "wdi"?
 Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
-
-Example:
 
 ```javascript
 findWdi([9,'Bart Simpson', true, 'wdi']) // returns true
 findWdi(['a','b','c']) // returns false
 ```
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 
 	function findWdi(arr){
@@ -172,11 +189,14 @@ findWdi(['a','b','c']) // returns false
 	}
 
 ```
+</details>
 
 ### 9. Find the longest word in a sentence
 Given a string representing a sentence, return the longest word in that sentence.
 
-**Example:**
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 findLongestWord("The rain in Spain falls mainly on the plain"); // => "mainly"
 findLongestWord("abcdefghijkl"); // => "abcdefghijkl"
@@ -187,6 +207,7 @@ function findLongestWord(sentence) {
     // TODO: Place your code here
 }
 ```
+</details>
 
 ### 10. Build an ASCII Triangle!
 Display a simple triangle with asterisks
@@ -202,6 +223,9 @@ printTriangle(5)**
 *****
 ```
 
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function printTriangle(length) {
 	// TODO: Place your code here
@@ -213,6 +237,7 @@ printTriangle(3);
 // **
 // ***
 ```
+</details>
 
 ### 11. Create a heads-or-tails game.
 In a separate file, create a super-simple HTML page that contains an element with the id `result`, and link your HTML page to a js file. In that js file, define 3 functions:
