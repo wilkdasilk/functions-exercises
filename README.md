@@ -34,32 +34,33 @@ For some of the problems, you'll have to use functions or other variables suppli
 ```
 
 
-## Deliverable
+<!--## Deliverable
 
 When you wrap up work, edit this README to include your name, a link to the original repository, and a 3-5 sentence reflection on completing this assignment. Example:
 
 > I was a able to complete all of the mathematical functions, but the string related functions were difficult for me. I spoke with the evening TA and she helped me solve the ASCII triangle function. I'm still feeling iffy on writing my own loops.
 
 Push your updates to GitHub and add a link to the repo to the "My Work" section of your website!
-
+-->
 ## Function Definitions!
 
 
 ### 1.  Build your own concatenation
 Return a new string that is the combination of two arguments passed into the function
 
-**Example: `dog` and `house` will display `doghouse`**
-
+**Example: `dog` and `house` will return `doghouse`**
+<details>
+<summary>Function signature (only look at this after you've thought about what it should look like)</summary>
+<br>
 ```javascript
 function combineWords(word1, word2) {
 	// TODO: Place your code here
 }
-
 var result = combineWords('dog', 'house');
 console.log(result);
 // displays 'doghouse'
 ```
-
+</details>
 ### 2.  Repeat a phrase
 Display an argument phrase to the console n times
 
@@ -154,7 +155,7 @@ console.log(result);
 ```
 *Challenge: Can you alter the code to count both upper case AND lower case?*
 
-### 8. Does the array contain "wdi"
+### 8. Does the array contain "wdi"?
 Given an array, return `true` if it contains the string "wdi" and `false` if it does not contain that string.
 
 Example:
@@ -172,7 +173,22 @@ findWdi(['a','b','c']) // returns false
 
 ```
 
-### 9. Build an ASCII Triangle!
+### 9. Find the longest word in a sentence
+Given a string representing a sentence, return the longest word in that sentence.
+
+**Example:**
+```javascript
+findLongestWord("The rain in Spain falls mainly on the plain"); // => "mainly"
+findLongestWord("abcdefghijkl"); // => "abcdefghijkl"
+```
+
+```javascript
+function findLongestWord(sentence) {
+    // TODO: Place your code here
+}
+```
+
+### 10. Build an ASCII Triangle!
 Display a simple triangle with asterisks
 
 **Example:   
@@ -198,7 +214,15 @@ printTriangle(3);
 // ***
 ```
 
-### 10. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid?
+### 11. Create a heads-or-tails game.
+In a separate file, create a super-simple HTML page that contains an element with the id `result`, and link your HTML page to a js file. In that js file, define 3 functions:
+-A function that returns either "heads" or "tails", the result of a coin flip.
+-A function that, when called, prompts the user to guess either "heads" or "tails" and returns their guess.
+-A function that takes in a string and puts that string into the `result` element on your page.
+
+Then, write a fourth function that wraps all of these functions into one, so that calling that fourth function will prompt the user to guess heads or tails, flip a coin, and then tell the user whether or not they were right. Make sure that calling just that function from the console works as expected.
+
+### 12. Stretch Challenge: Can you alter the printTriangle function to create a Pyramid?
 **Example:  printPyramid(10);**
 
 ```javascript
